@@ -50,8 +50,9 @@ It is available at [Github/makyeme](https://github.com/makyeme/NYC_motorCrashes/
 This function when called is able to 
 - pull the dataFrame 
 - strip whitespace from cells that have a string-like object in them
+
 library used: pandas
-The code for this function is available at
+
  
  ### 2. exploreData() Function 
  
@@ -60,6 +61,7 @@ when called, returns exploratory information on the dataFrame, information such 
 - variable names of dataFrame
 - sum of missing values per variable
 - data types of variables
+
 Library used: pandas
  
  ### 3. getMissing() Function
@@ -71,6 +73,7 @@ The NYC moto collison dataset obtained contains a significant amount of missing 
 ![Optional Text](https://github.com/makyeme/NYC_motorCrashes/blob/main/Missing_data.PNG)
 
 NYC_crashes.ipynb includes all the code that finds the percentage of missing data and plots the graph above.
+
 library used: Matplotlib, Seaborn, Pandas
 
 ### 4. cleanData() Function
@@ -90,6 +93,7 @@ Libraries used: Pandas
 ### 5. createCsv() Function 
 
 when called Saves cleaned out dataframe to csv formart
+
 libraries used: pandas
 
 
