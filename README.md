@@ -24,7 +24,7 @@ Some of the questions I tried to explore through the data are outlined below:
 
 
 
-## Technology
+## 2. Technology
 
 This project was created with:
 
@@ -45,7 +45,7 @@ The entire data cleaning processes and generation of a CSV file was excuted thro
 NYC_crashes.ipynb file contains all the codes for the above stated fucntions, 
 It is available at [Github/makyeme](https://github.com/makyeme/NYC_motorCrashes/blob/main/NYC_crashes.ipynb)
 
-### getData() Function
+### i. getData() Function
 
 This function when called is able to 
 - pull the dataFrame 
@@ -54,7 +54,7 @@ This function when called is able to
 Libraries used: pandas
 
  
- ### 2. exploreData() Function 
+ ### ii. exploreData() Function 
  
 when called, returns exploratory information on the dataFrame, information such as:
 - number of observations
@@ -64,7 +64,7 @@ when called, returns exploratory information on the dataFrame, information such 
 
 Libraries used: pandas
  
- ### 3. getMissing() Function
+ ### iii. getMissing() Function
  
 when called, returns a dataframe with missing data percentage per variable and plots it
 The NYC moto collison dataset obtained contains a significant amount of missing values. Missing values per variable/column are shown below.
@@ -76,7 +76,7 @@ NYC_crashes.ipynb includes all the code that finds the percentage of missing dat
 
 Libraries used: Matplotlib, Seaborn, Pandas
 
-### 4. cleanData() Function
+### iv. cleanData() Function
 
 when called, returns a fairly cleaned out dataFrame for further data analysis.
 
@@ -90,7 +90,7 @@ Furthermore, several other variables rendered redundant in predicting accident h
 
 Libraries used: Pandas
 
-### 5. createCsv() Function 
+### v. createCsv() Function 
 
 when called Saves cleaned out dataframe to csv formart
 
@@ -98,7 +98,7 @@ libraries used: pandas
 
 
 
-## Conclusion
+## 3. Conclusion
 
 The project was an in-depth exercise to explore and clean data in the NYC motor vehicle collision dataset, in anticipation for developing a prediction model for accident-prone streets in New York city. Through the course of the project, I deepened my expertise in several data: exploration, cleaning, engineering and visualization techniques
 
