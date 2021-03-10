@@ -67,6 +67,11 @@ Library used: pandas
 when called, returns a dataframe with missing data percentage per variable and plots it
 The NYC moto collison dataset obtained contains a significant amount of missing values. Missing values per variable/column are shown below.
 
+<p align="center">
+  <img src="Missing_data.png"/>
+</p>
+
+
 NYC_crashes.ipynb includes all the code that finds the percentage of missing data and plots the graph above.
 library used: Matplotlib, Seaborn, Pandas
 
