@@ -39,7 +39,7 @@ This project was created with:
 
 
 
-## Setup
+## 3. Setup
 
 The entire data cleaning processes and generation of a CSV file was excuted through 5 functions as detailed below:
 NYC_crashes.ipynb file contains all the codes for the above stated fucntions, 
@@ -98,7 +98,7 @@ libraries used: pandas
 
 
 
-## 3. Conclusion
+## 4. Conclusion
 
 The project was an in-depth exercise to explore and clean data in the NYC motor vehicle collision dataset, in anticipation for developing a prediction model for accident-prone streets in New York city. Through the course of the project, I deepened my expertise in several data: exploration, cleaning, engineering and visualization techniques
 
