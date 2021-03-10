@@ -43,7 +43,7 @@ This project was created with:
 
 The entire data cleaning processes and generation of a CSV file was excuted through 5 functions as detailed below:
 NYC_crashes.ipynb file contains all the codes for the above stated fucntions, 
-It is available at [Github/makyeme](https://github.com/makyeme/NYC_motorCrashes)
+It is available at [Github/makyeme](https://github.com/makyeme/NYC_motorCrashes/blob/main/NYC_crashes.ipynb)
 
 ### getData() Function
 
@@ -66,6 +66,9 @@ Library used: pandas
  
 when called, returns a dataframe with missing data percentage per variable and plots it
 The NYC moto collison dataset obtained contains a significant amount of missing values. Missing values per variable/column are shown below.
+
+
+![Optional Text](https://github.com/makyeme/NYC_motorCrashes/blob/main/Missing_data.PNG)
 
 NYC_crashes.ipynb includes all the code that finds the percentage of missing data and plots the graph above.
 library used: Matplotlib, Seaborn, Pandas
