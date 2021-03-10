@@ -43,7 +43,7 @@ This project was created with:
 
 The entire data cleaning processes and generation of a CSV file was excuted through 5 functions as detailed below:
 NYC_crashes.ipynb file contains all the codes for the above stated fucntions, 
-It is available at [Github/makyeme](https://github.com/makyeme/NYC_motorCrashes)
+It is available at [Github/makyeme](https://github.com/makyeme/NYC_motorCrashes/blob/main/NYC_crashes.ipynb)
 
 ### getData() Function
 
