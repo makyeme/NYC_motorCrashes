@@ -15,7 +15,7 @@ NYC is home to more than 8 million people and sees roughly 50 million tourists e
 
 The aim of this project is to generate  a cleaned out and comprehensive dataset from the source dataset. This dataset will be used to develop a machine learning alogarithm, capable of predicting the most accident-prone streets of New York. The resulting information will provide deeper insights and enable the mayor of New York, Bill de Blasio to make better inferences regarding the most dangerous streets within the city.
 
-Some of the questions I tried to explore through the data are given below:
+Some of the questions I tried to explore through the data are outlined below:
 
 - What is the target/dependant variable(s) to assess level of accident proneness?
 - What to do with missing values?
