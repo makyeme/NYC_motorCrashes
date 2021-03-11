@@ -15,7 +15,7 @@ NYC is home to more than 8 million people and sees roughly 50 million tourists e
 
 The aim of this project is to generate  a cleaned out and comprehensive dataset from the source dataset. This dataset will be used to develop a machine learning alogarithm, capable of predicting the most accident-prone streets of New York. The resulting information will provide deeper insights and enable the mayor of New York, Bill de Blasio to make better inferences regarding the most dangerous streets within the city.
 
-Some of the questions I tried to explore through the data are given below:
+Some of the questions I tried to explore through the data are outlined below:
 
 - What is the target/dependant variable(s) to assess level of accident proneness?
 - What to do with missing values?
@@ -24,7 +24,7 @@ Some of the questions I tried to explore through the data are given below:
 
 
 
-## Technology
+## 2. Technology
 
 This project was created with:
 
@@ -39,30 +39,32 @@ This project was created with:
 
 
 
-## Setup
+## 3. Setup
 
 The entire data cleaning processes and generation of a CSV file was excuted through 5 functions as detailed below:
 NYC_crashes.ipynb file contains all the codes for the above stated fucntions, 
 It is available at [Github/makyeme](https://github.com/makyeme/NYC_motorCrashes/blob/main/NYC_crashes.ipynb)
 
-### getData() Function
+### i. getData() Function
 
 This function when called is able to 
 - pull the dataFrame 
 - strip whitespace from cells that have a string-like object in them
-library used: pandas
-The code for this function is available at
+
+Libraries used: pandas
+
  
- ### 2. exploreData() Function 
+ ### ii. exploreData() Function 
  
 when called, returns exploratory information on the dataFrame, information such as:
 - number of observations
 - variable names of dataFrame
 - sum of missing values per variable
 - data types of variables
-Library used: pandas
+
+Libraries used: pandas
  
- ### 3. getMissing() Function
+ ### iii. getMissing() Function
  
 when called, returns a dataframe with missing data percentage per variable and plots it
 The NYC moto collison dataset obtained contains a significant amount of missing values. Missing values per variable/column are shown below.
@@ -71,9 +73,10 @@ The NYC moto collison dataset obtained contains a significant amount of missing 
 ![Optional Text](https://github.com/makyeme/NYC_motorCrashes/blob/main/Missing_data.PNG)
 
 NYC_crashes.ipynb includes all the code that finds the percentage of missing data and plots the graph above.
-library used: Matplotlib, Seaborn, Pandas
 
-### 4. cleanData() Function
+Libraries used: Matplotlib, Seaborn, Pandas
+
+### iv. cleanData() Function
 
 when called, returns a fairly cleaned out dataFrame for further data analysis.
 
@@ -87,14 +90,15 @@ Furthermore, several other variables rendered redundant in predicting accident h
 
 Libraries used: Pandas
 
-### 5. createCsv() Function 
+### v. createCsv() Function 
 
 when called Saves cleaned out dataframe to csv formart
+
 libraries used: pandas
 
 
 
-## Conclusion
+## 4. Conclusion
 
 The project was an in-depth exercise to explore and clean data in the NYC motor vehicle collision dataset, in anticipation for developing a prediction model for accident-prone streets in New York city. Through the course of the project, I deepened my expertise in several data: exploration, cleaning, engineering and visualization techniques
 
